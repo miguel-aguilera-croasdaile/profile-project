@@ -1,2 +1,133 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<body>
+  <div class="container">
+    <div class="card" id="header">
+      <%= image_tag("profile.jpg", class: "headshot") %>
+      <h1>
+        Miguel Aguilera-Croasdaile
+      </h1>
+      <h3>
+        Full-Stack Developer
+      </h3>
+      <p>
+        Just graduated high school last year and now I jump into the world of coding.
+      </p>
+      <a href="https://www.lewagon.com/" class="button" target="blank">
+        Try for yourself!
+      </a>
+    </div>
+
+    <div class="card" id="social_media">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100006446462047" target="_blank">
+            <i class="material-icons">import_contacts</i>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/mig.aguilera/" target="_blank">
+            <i class="material-icons">camera_roll</i>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/miguel-aguilera-croasdaile-666420152/" target="_blank">
+            <i class="material-icons">language</i>
+            Linkedin
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="album_grid">
+      <div class="card" id="albums">
+        <div class="album">
+          <%= image_tag("in_rainbows.jpg", class: "album-image") %>
+          <h4>
+            <a href="https://open.spotify.com/album/7eyQXxuf2nGj9d2367Gi5f?si=tREbuA9xRKCodESO9ZQNiA" target="blank">
+              In Rainbows
+            </a>
+          </h4>
+          <p class="album_description">
+            In Rainbows is the seventh studio album by English rock band Radiohead, self-released on 10 October 2007 as a pay-what-you-want download. It was followed by a physical release internationally by XL Recordings on 3 December 2007 and in the United States on 1 January 2008 by TBD Records. It was Radiohead's first release after their recording contract with EMI ended with their previous album Hail to the Thief (2003).
+          </p>
+        </div>
+        <div class="album">
+          <%= image_tag("the_queen_is_dead.jpg", class: "album-image") %>
+          <h4>
+            <a href="https://open.spotify.com/album/5Y0p2XCgRRIjna91aQE8q7?si=sZStyjLERSO4x0phYm7ptA" target="blank">
+              The Queen Is Dead
+            </a>
+          </h4>
+          <p class="album_description">
+            The Queen Is Dead is the third studio album by English rock band the Smiths. It was released on 16 June 1986 in the United Kingdom by Rough Trade Records and released in the United States on 23 June 1986 through Sire Records.
+          </p>
+        </div>
+        <div class="album">
+          <%= image_tag("flower_boy.jpg", class: "album-image") %>
+          <h4>
+            <a href="https://open.spotify.com/album/2nkto6YNI4rUYTLqEwWJ3o?si=zSsA97i_SBSVCzelmJsWGA" target="blank">
+              Flower Boy
+            </a>
+          </h4>
+          <p class="album_description">
+            Flower Boy is the fourth studio album by American rapper Tyler, the Creator. The album, which is his second under a major record label, was released on July 21, 2017, by Columbia Records. Although the album's production was handled entirely by Tyler, the Creator himself, it features guest vocals from a range of artists, including Frank Ocean, ASAP Rocky, Anna of the North, Lil Wayne, Kali Uchis, Steve Lacy, Estelle, Jaden Smith and Rex Orange County.
+          </p>
+        </div>
+        <div class="album">
+          <%= image_tag("unknown_pleasures.jpg", class: "album-image") %>
+          <h4>
+            <a href="https://open.spotify.com/album/0cbpcdI4UySacPh5RCpDfo?si=G3T_1W2vRGWdDZEga4ogRQ" target="blank">
+              Unknown Pleasures
+            </a>
+          </h4>
+          <p class="album_description">
+            Unknown Pleasures is the debut studio album by English rock band Joy Division, released on 15 June 1979 on Tony Wilson's Factory Records label. The album was recorded and mixed over three successive weekends at Stockport's Strawberry Studios in April 1979 and was produced by Martin Hannett, who incorporated a number of unconventional recording and production techniques into the group's sound. The cover artwork was designed by artist Peter Saville. It is the only Joy Division album released during lead singer Ian Curtis's lifetime.
+          </p>
+        </div>
+        <div class="album">
+          <%= image_tag("blond.jpg", class: "album-image") %>
+          <h4>
+            <a href="https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf?si=KZkVThJpT2GHCUyPpuu_pw" target="blank">
+              Blond
+            </a>
+          </h4>
+          <p class="album_description">
+            Blonde (alternately titled blond) is the second studio album by American singer Frank Ocean. It was released on August 20, 2016, as a timed exclusive on the iTunes Store and Apple Music, and followed the August 19 release of Ocean's visual album Endless. Initially known as Boys Don't Cry and teased for a July 2015 release, the album suffered several delays and was the subject of widespread media anticipation leading up to its release
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="music_player" style="overflow-y: scroll; height:450px;">
+      <h2>My Spotify Playlists</h2>
+      <table>
+        <tr>
+          <h3> RnB/Pop Playlist </h3>
+          <iframe src="https://open.spotify.com/embed/user/stxhl/playlist/6iRk9nSlasDEU7vDbzjai9" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        </tr>
+        <tr>
+          <h3> 90's Alternative Mix</h3>
+          <iframe src="https://open.spotify.com/embed/user/stxhl/playlist/0pY7wtWMgTaW5eDw36aIqZ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        </tr>
+        <tr>
+          <h3> Rock En Español</h3>
+          <iframe src="https://open.spotify.com/embed/user/stxhl/playlist/387rUjcvNhMksDmoYDxdX1" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        </tr>
+        <tr>
+          <h3> Trap</h3>
+          <iframe src="https://open.spotify.com/embed/user/stxhl/playlist/0wYH9fU3vIohh7dzJIDXno" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        </tr>
+      </table>
+    </table>
+
+  </div>
+
+  <div class="card" id="lewagon">
+    This webpage was coded during the FrontEnd Module of LeWagon's
+    <a href="https://www.lewagon.com/program" target="blank">FullStack Developer Program.</a>
+  </div>
+
+</div>
+</body>
+
+</html>

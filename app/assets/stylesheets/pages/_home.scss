@@ -1,1 +1,92 @@
-// Specific CSS for your home-page
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  color: #CF5D59;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EBEBEB;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: black;
+  background-color: black;
+}
+
+.album_description {
+  font-size: 12px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+  justify-content: space-around;
+}
+
+.headshot{
+  width: 100px;
+  border-radius: 50%;
+}
+
+img.album_image {
+  vertical-align: text-top;
+  border-radius: 5px;
+}
+
+ul {
+  margin: auto auto; /* This automatically sets left/right margins */
+  padding: 5px
+}
+
+li{
+  padding:10px;
+  text-align:center;
+  display: inline-block;
+}
+
+table{
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover{
+  color: #CF5D59;
+}
+
+.button{
+  background-color: #CF5D59;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.card {
+  background-color: white;
+  width: 500px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 3px, 3px black;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.album_description{
+  text-align: left;
+}
